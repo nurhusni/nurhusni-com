@@ -101,8 +101,9 @@ const Index = () => {
                     { name: 'MySQL', icon: 'mysql' },
                     { name: 'Google Cloud', icon: 'googlecloud' },
                     { name: 'Google BigQuery', icon: 'googlebigquery' },
-                    { name: 'Google Pub/Sub', icon: 'googlepubsub', fallback: 'googlecloud' },
+                    { name: 'Google Pub/Sub', icon: 'googlepubsub' },
                     { name: 'Redis', icon: 'redis' },
+                    { name: 'SonarQube Cloud', icon: 'sonarqubecloud' },
                   ].map((skill) => (
                     <div
                       key={skill.name}
@@ -150,6 +151,9 @@ const Index = () => {
                     { name: 'PostgreSQL', icon: 'postgresql' },
                     { name: 'Redis', icon: 'redis' },
                     { name: 'Vue.js', icon: 'vuedotjs' },
+                    { name: 'Grafana', icon: 'grafana' },
+                    { name: 'Datadog', icon: 'datadog' },
+                    { name: 'SonarQube Cloud', icon: 'sonarqubecloud' },
                   ].map((skill) => (
                     <div
                       key={skill.name}
@@ -221,6 +225,7 @@ const Index = () => {
                     { name: 'PostgreSQL', icon: 'postgresql' },
                     // { name: 'gRPC', icon: 'grpc' },
                     { name: 'Apache Kafka', icon: 'apachekafka' },
+                    { name: 'Datadog', icon: 'datadog' },
                   ].map((skill) => (
                     <div
                       key={skill.name}
