@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title desc">
+  <title id="title">Nurhusni Logo</title>
+  <desc id="desc">Rounded square with an uppercase letter N rendered in a foreground-to-teal gradient on a dark background.</desc>
+  <defs>
+    <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="hsl(240 10% 8%)" />
+      <stop offset="100%" stop-color="hsl(240 10% 14%)" />
+    </linearGradient>
+    <linearGradient id="text-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="hsl(0 0% 98%)" />
+      <stop offset="100%" stop-color="hsl(189 94% 43%)" />
+    </linearGradient>
+  </defs>
+  <rect width="120" height="120" x="4" y="4" rx="28" fill="url(#bg-gradient)" />
+  <text
+    x="64"
+    y="90"
+    text-anchor="middle"
+    font-family="'Space Grotesk', 'Inter', sans-serif"
+    font-size="76"
+    fill="url(#text-gradient)"
+    font-weight="600"
+  >N</text>
+</svg>
