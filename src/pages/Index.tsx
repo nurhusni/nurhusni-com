@@ -282,10 +282,10 @@ const Index = () => {
               Feel free to reach out for collaborations, opportunities, or just to say hello!
             </p>
             
-            <div className="grid gap-6 md:grid-cols-2">
+            <div className="grid gap-6 md:grid-cols-2 max-w-2xl mx-auto">
               <a
                 href="mailto:contact@nurhusni.com"
-                className="flex items-center gap-4 p-4 bg-secondary rounded-lg hover:bg-secondary/80 transition-all duration-300 group"
+                className="flex w-full items-center gap-4 p-4 bg-secondary rounded-lg hover:bg-secondary/80 transition-all duration-300 group"
               >
                 <div className="p-3 bg-primary/10 rounded-lg group-hover:bg-primary/20 transition-colors">
                   <Mail className="w-6 h-6 text-primary" />
@@ -300,7 +300,7 @@ const Index = () => {
                 href="https://wa.me/6285157063991"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-4 p-4 bg-secondary rounded-lg hover:bg-secondary/80 transition-all duration-300 group"
+                className="flex w-full items-center gap-4 p-4 bg-secondary rounded-lg hover:bg-secondary/80 transition-all duration-300 group"
               >
                 <div className="p-3 bg-primary/10 rounded-lg group-hover:bg-primary/20 transition-colors">
                   <MessageCircle className="w-6 h-6 text-primary" />
@@ -315,7 +315,7 @@ const Index = () => {
                 href="https://linkedin.com/in/nurhusni"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-4 p-4 bg-secondary rounded-lg hover:bg-secondary/80 transition-all duration-300 group"
+                className="flex w-full items-center gap-4 p-4 bg-secondary rounded-lg hover:bg-secondary/80 transition-all duration-300 group"
               >
                 <div className="p-3 bg-primary/10 rounded-lg group-hover:bg-primary/20 transition-colors">
                   <Linkedin className="w-6 h-6 text-primary" />
@@ -330,7 +330,7 @@ const Index = () => {
                 href="https://github.com/nurhusni"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-4 p-4 bg-secondary rounded-lg hover:bg-secondary/80 transition-all duration-300 group"
+                className="flex w-full items-center gap-4 p-4 bg-secondary rounded-lg hover:bg-secondary/80 transition-all duration-300 group"
               >
                 <div className="p-3 bg-primary/10 rounded-lg group-hover:bg-primary/20 transition-colors">
                   <Github className="w-6 h-6 text-primary" />
