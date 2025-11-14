@@ -278,13 +278,12 @@ const Index = () => {
               <p className="text-primary mb-2">
                 <a href="https://unj.ac.id/" target="_blank" rel="noopener noreferrer" className="hover:underline">
                   Universitas Negeri Jakarta
-                </a> • 2016 - 2022
+                </a>
               </p>
               <p className="text-muted-foreground leading-relaxed mb-2">
                 Studied fundamental physics principles with strong emphasis on mathematical modeling and analytical thinking. 
                 Applied computational methods and problem-solving skills that translate well to software engineering.
               </p>
-              <p className="text-sm text-muted-foreground">GPA: 3.10</p>
             </div>
           </div>
         </div>
